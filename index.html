@@ -15,7 +15,8 @@
          font-size: 43px;
        }
        h1 {
-         font-size: 50px;
+         padding: 20px;
+         color: white;
        }
        #countdownclock {
       padding: 20px;
@@ -24,31 +25,36 @@
          /* Extra small devices (phones, 600px and down) */
       @media only screen and (max-width: 600px) {
         #countdownclock {font-size: 60px;}
+        .intro {font-size: 30px;}
       }
 
       /* Small devices (portrait tablets and large phones, 600px and up) */
       @media only screen and (min-width: 600px) {
         #countdownclock {font-size: 80px;}
+        .intro {font-size: 40px;}
       }
 
       /* Medium devices (landscape tablets, 768px and up) */
       @media only screen and (min-width: 768px) {
         #countdownclock {font-size: 100px;}
+        .intro {font-size: 50px;}
       }
 
       /* Large devices (laptops/desktops, 992px and up) */
       @media only screen and (min-width: 992px) {
         #countdownclock {font-size: 120px;}
+        .intro {font-size: 60px;}
       }
 
       /* Extra large devices (large laptops and desktops, 1200px and up) */
       @media only screen and (min-width: 1200px) {
         #countdownclock {font-size: 150px;}
+        .intro {font-size: 150px;}
       }
    </style>
   </head>
   <body>
-      <h1>Time left to #EndOverfishing</h1>
+      <h1 class="intro">Time left to #EndOverfishing</h1>
       <p id="countdownclock">
         <script>
         // Set the date we're counting down to
